@@ -11,11 +11,10 @@ header .menu {
   background-color: #000000;
   padding: 20px 80px;
 }
-header .imgbox {
+header .menu .imgbox {
   width: 140px;
 }
-header nav a {
-  font-size: 20px;
+header .menu nav a {
   color: #ffffff;
   margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
