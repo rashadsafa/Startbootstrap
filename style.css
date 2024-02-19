@@ -7,14 +7,23 @@ body {
   font-size: 20px;
 }
 
-header .menu {
+header .box .menu {
   background-color: #000000;
   padding: 20px 80px;
 }
-header .menu .imgbox {
+header .box .menu .imgbox {
   width: 140px;
 }
-header .menu nav a {
+header .box .menu nav a {
   color: #ffffff;
   margin: 0 10px;
+}
+header .box .menu nav a:hover {
+  color: #ff0000;
+}
+header .box .minibox .imgbox img {
+  width: 1296px;
+}
+header .box .minibox .btn {
+  background-color: #ffff00;
 }/*# sourceMappingURL=style.css.map */
