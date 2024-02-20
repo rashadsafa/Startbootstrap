@@ -20,4 +20,8 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   color: #ff0000;
+}
+
+#welcome .box .btn {
+  background-color: #ff0000;
 }/*# sourceMappingURL=style.css.map */
