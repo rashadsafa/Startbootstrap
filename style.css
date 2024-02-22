@@ -8,7 +8,7 @@ body {
 }
 
 header .menu {
-  background-color: #000000;
+  position: fixed;
   padding: 20px 80px;
 }
 header .menu .imgbox {
@@ -19,9 +19,38 @@ header .menu nav a {
   margin: 0 10px;
 }
 header .menu nav a:hover {
-  color: #ff0000;
+  color: #ffc800;
+}
+@media screen and (max-width: 1000px) {
+  header nav a {
+    display: none;
+  }
 }
 
+#welcome .box .textbox {
+  background-image: url(assets/header-bg.jpg);
+  background-size: cover;
+  height: 750px;
+}
+#welcome .box .textbox h1 {
+  position: absolute;
+  left: 600px;
+  top: 390px;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 500;
+}
+#welcome .box .textbox h2 {
+  position: absolute;
+  font-size: 40px;
+  color: #ffffff;
+  left: 780px;
+  top: 330px;
+}
 #welcome .box .btn {
-  background-color: #ff0000;
+  background-color: #ffc800;
+  position: absolute;
+  left: 860px;
+  top: 510px;
+  padding: 20px 50px;
 }/*# sourceMappingURL=style.css.map */

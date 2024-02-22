@@ -1,6 +1,6 @@
 header
     .menu
-        background-color: #212529
+        position: fixed
         padding: 20px 80px
         .imgbox
             width: 140px
@@ -10,3 +10,8 @@ header
                 margin: 0 10px
                 &:hover
                     color: #ffc800
+            
+    @media screen and ( max-width: 1000px )
+        nav
+            a
+                display: none
