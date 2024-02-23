@@ -27,30 +27,22 @@ header .menu nav a:hover {
   }
 }
 
-#welcome .box .textbox {
+#welcome {
   background-image: url(assets/header-bg.jpg);
   background-size: cover;
-  height: 750px;
+  height: 1100px;
 }
-#welcome .box .textbox h1 {
-  position: absolute;
-  left: 600px;
-  top: 390px;
+#welcome h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+#welcome h2 {
   color: #ffffff;
   font-size: 80px;
   font-weight: 500;
 }
-#welcome .box .textbox h2 {
-  position: absolute;
-  font-size: 40px;
-  color: #ffffff;
-  left: 780px;
-  top: 330px;
-}
-#welcome .box .btn {
+#welcome .btn {
   background-color: #ffc800;
-  position: absolute;
-  left: 860px;
-  top: 510px;
   padding: 20px 50px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
