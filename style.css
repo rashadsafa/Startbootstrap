@@ -7,18 +7,19 @@ body {
   font-size: 20px;
 }
 
-header .menu {
+header {
+  width: 100%;
   background-color: #212529;
-  padding: 20px 80px;
+  padding: 20px 0;
 }
-header .menu .imgbox {
+header .imgbox {
   width: 140px;
 }
-header .menu nav a {
+header nav a {
   color: #ffffff;
   margin: 0 10px;
 }
-header .menu nav a:hover {
+header nav a:hover {
   color: #ffc800;
 }
 @media screen and (max-width: 1000px) {
@@ -30,7 +31,9 @@ header .menu nav a:hover {
 #welcome {
   background-image: url(assets/header-bg.jpg);
   background-size: cover;
-  height: 1100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 #welcome h1 {
   color: #ffffff;
@@ -38,8 +41,9 @@ header .menu nav a:hover {
 }
 #welcome h2 {
   color: #ffffff;
-  font-size: 80px;
+  font-size: 120px;
   font-weight: 500;
+  padding: 20px 0;
 }
 #welcome .btn {
   background-color: #ffc800;
