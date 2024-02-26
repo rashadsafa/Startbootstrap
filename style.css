@@ -37,15 +37,31 @@ header nav a:hover {
 }
 #welcome h1 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 20px;
 }
 #welcome h2 {
   color: #ffffff;
-  font-size: 120px;
+  font-size: 50px;
   padding: 20px 0;
 }
 #welcome .btn {
   background-color: #ffc800;
   padding: 20px 50px;
   color: #ffffff;
+}
+@media screen and (min-width: 576px) {
+  #welcome h1 {
+    font-size: 40px;
+  }
+  #welcome h2 {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #welcome h1 {
+    font-size: 60px;
+  }
+  #welcome h2 {
+    font-size: 120px;
+  }
 }/*# sourceMappingURL=style.css.map */
