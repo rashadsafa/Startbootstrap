@@ -31,37 +31,43 @@ header nav a:hover {
 #welcome {
   background-image: url(assets/header-bg.jpg);
   background-size: cover;
+  background-position: center center;
   height: 100vh;
   display: flex;
   align-items: center;
 }
-#welcome h1 {
+#welcome .textbox {
+  padding: 50px 0;
+}
+#welcome .textbox h1 {
   color: #ffffff;
   font-size: 20px;
+  margin: 20px 0;
+  padding: 50px 0 0;
 }
-#welcome h2 {
+#welcome .textbox h2 {
   color: #ffffff;
-  font-size: 50px;
-  padding: 20px 0;
+  font-size: 40px;
 }
-#welcome .btn {
+#welcome .textbox .btn {
   background-color: #ffc800;
-  padding: 20px 50px;
+  padding: 30px 80px;
   color: #ffffff;
+  margin: 80px 0 0;
 }
 @media screen and (min-width: 576px) {
-  #welcome h1 {
+  #welcome .textbox h1 {
     font-size: 40px;
   }
-  #welcome h2 {
-    font-size: 80px;
+  #welcome .textbox h2 {
+    font-size: 100px;
   }
 }
 @media screen and (min-width: 768px) {
-  #welcome h1 {
+  #welcome .textbox h1 {
     font-size: 60px;
   }
-  #welcome h2 {
+  #welcome .textbox h2 {
     font-size: 120px;
   }
 }/*# sourceMappingURL=style.css.map */
