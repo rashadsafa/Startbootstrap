@@ -103,4 +103,16 @@ header nav a:hover {
 #services .textbox p {
   font-size: 20px;
   color: #6c757d;
+}
+
+#portfolio .textbox {
+  padding: 20px;
+}
+#portfolio .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#portfolio .textbox h3 {
+  margin: 10px 0;
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
