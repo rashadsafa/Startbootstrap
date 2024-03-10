@@ -36,6 +36,7 @@ header .btn h1, header .btn .icon {
   }
   header .btn h1, header .btn .icon {
     display: block;
+    margin: 5px;
   }
   header nav a {
     display: none;
