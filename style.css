@@ -26,19 +26,15 @@ header nav a {
 header nav a:hover {
   color: #ffc800;
 }
-header .btn h1 {
-  color: #ffffff;
-  display: none;
-}
-header .btn .icon i {
+header .btn h1, header .btn .icon {
   color: #ffffff;
   display: none;
 }
 @media screen and (max-width: 992px) {
-  header .btn h1 {
-    display: block;
+  header .btn {
+    border: 1px solid #ffffff;
   }
-  header .btn .icon i {
+  header .btn h1, header .btn .icon {
     display: block;
   }
   header nav a {
