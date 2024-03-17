@@ -127,11 +127,35 @@ header .btn h1, header .btn .icon {
   margin: 10px 0;
   color: #6c757d;
 }
-#portfolio .textbox h2 {
+#portfolio .box {
+  background-color: #ffffff;
+}
+#portfolio .box .imgbox {
+  position: relative;
+}
+#portfolio .box .imgbox .icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+}
+#portfolio .box .imgbox .icon:hover {
+  background-color: #ffc800;
+  width: 100%;
+  opacity: 0, 5;
+  transition: 3s;
+}
+#portfolio .box .textbox h2 {
   font-weight: 700;
   font-size: 24px;
   margin: 10px 0;
 }
-#portfolio .textbox h4 {
+#portfolio .box .textbox h4 {
   color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
