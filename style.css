@@ -133,15 +133,15 @@ header .menu nav a:hover {
   }
 }
 
-#services {
-  padding: 50px 0;
+#services .textbox {
+  padding-bottom: 50px;
 }
-#services h1 {
+#services .textbox h1 {
   font-weight: 700;
   font-size: 40px;
 }
-#services h3 {
-  margin: 20px 0 40px;
+#services .textbox h3 {
+  margin-top: 20px;
   font-size: 18px;
   color: #6c757d;
 }
