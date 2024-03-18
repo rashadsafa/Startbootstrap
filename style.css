@@ -238,4 +238,43 @@ header .menu nav a:hover {
   #portfolio .box .imgbox {
     width: auto;
   }
+}
+
+#about {
+  padding: 100px 0;
+}
+#about .text-center {
+  margin-bottom: 55px;
+}
+#about .text-center h1 {
+  font-size: 60px;
+  font-weight: 700px;
+  margin-bottom: 10px;
+}
+#about .text-center h3 {
+  font-size: 20px;
+  color: #828080;
+}
+#about .box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 100px 100px;
+}
+#about .box .textbox {
+  width: 400px;
+  margin: 0 20px;
+  text-align: end;
+}
+#about .box .textbox h2, #about .box .textbox h4 {
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 1.3;
+}
+#about .box .textbox p {
+  font-size: 19px;
+  color: #828080;
+  line-height: 1.4;
+}
+#about .box .imgbox {
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
