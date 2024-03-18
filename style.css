@@ -15,35 +15,82 @@ section {
   padding: 50px 0;
 }
 
-header {
+header .menu {
   width: 100%;
   background-color: #212529;
-  padding: 20px 0;
+  padding: 10px 0;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
-header .imgbox {
+header .menu .imgbox {
   width: 140px;
+  margin-left: 120px;
 }
-header nav a {
+header .menu .btn {
   color: #ffffff;
-  margin: 0 10px;
-}
-header nav a:hover {
-  color: #ffc800;
-}
-header .btn h1, header .btn .icon {
-  color: #ffffff;
+  display: flex;
+  align-items: center;
   display: none;
+  border: 1px solid rgba(255, 255, 255, 0.6470588235);
+  padding: 2px;
+  opacity: 0.6;
+}
+header .menu .btn h5 {
+  cursor: pointer;
+  font-weight: 700px;
+  font-size: 17px;
+}
+header .menu .btn .icon {
+  margin-left: 7px;
+  cursor: pointer;
+}
+header .menu nav {
+  margin-right: 120px;
+}
+header .menu nav a {
+  font-size: 19px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+header .menu nav a:hover {
+  color: #ffcb11;
+}
+@media screen and (max-width: 576px) {
+  header .menu {
+    height: 70px;
+  }
+  header .menu .btn {
+    margin-right: 10px;
+    padding: 6px 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width: 992px) {
-  header .btn {
-    border: 1px solid #ffffff;
+  header .menu nav {
+    margin-right: 55px;
   }
-  header .btn h1, header .btn .icon {
-    display: block;
-    margin: 5px;
+  header .menu nav a {
+    margin: 0 10px;
   }
-  header nav a {
-    display: none;
+  header .menu nav a .imgbox {
+    margin-left: 40px;
   }
 }
 
