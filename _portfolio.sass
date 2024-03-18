@@ -1,15 +1,26 @@
 #portfolio
+    background-color: #acadaf16
     .textbox
-        padding: 20px
+        padding-top: 40px
         h1
             font-weight: 700
-            font-size: 30px
+            font-size: 40px
+            margin-bottom: 20px
         h3
-            margin: 10px 0
+            font-size: 20px
+            margin-bottom: 50px
             color: #6c757d
+        h2
+            font-weight: 700
+            font-size: 29px
+            margin-top: 13px
+            line-height: 1.2
+        h4
+            font-size: 20px
+            color: #838489
     .box
-        margin: 0 0 20px
-        padding: 0 10px
+        margin-bottom: 30px
+        padding-bottom: 20px
         background-color: #ffffff
         .imgbox
             position: relative
@@ -18,21 +29,29 @@
                 display: flex
                 justify-content: center
                 align-items: center
-                font-size: 30px
+                font-size: 60px
                 color: #ffffff
                 position: absolute
                 top: 0
                 bottom: 0
                 opacity: 0
                 &:hover
-                    background-color: #ffc800
-                    width: 100%
-                    opacity: 0
-                    transition: 3s
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
+    @media screen and ( max-width: 992px )
+        .box
+            .imgbox
+                width: auto
+    @media screen and ( max-width: 576px )
         .textbox
-            h2
-                font-weight: 700
-                font-size: 24px
-                margin: 10px 0
-            h4
-                color: #6c757d
+            h1
+                font-size: 40px
+            h3
+                font-size: 18px
+                margin-bottom: 35px
+        .box
+            margin-bottom: 50px
+            .imgbox
+                width: auto
