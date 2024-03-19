@@ -276,7 +276,7 @@ header .menu nav a:hover {
   line-height: 1.4;
 }
 #about .box .imgbox {
-  border: 5px solid #828080;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
   border-radius: 50%;
 }
 #about .right {
@@ -382,5 +382,61 @@ header .menu nav a:hover {
   }
   #about .yellow .story .minibox h2 {
     font-size: 18px;
+  }
+}
+
+#our {
+  background-color: rgba(192, 192, 192, 0.1254901961);
+}
+#our .textbox h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#our .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 50px;
+}
+#our .box .imgbox {
+  width: 220px;
+  border-radius: 50%;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
+}
+#our .box .textbox {
+  text-align: center;
+  margin: 15px 0;
+}
+#our .box .textbox h2 {
+  font-size: 30px;
+  font-weight: 700px;
+}
+#our .box .textbox h4 {
+  font-size: 18px;
+  color: #6c757d;
+}
+#our .box ul {
+  display: flex;
+  justify-content: center;
+}
+#our .box ul li {
+  margin: 10px;
+}
+#our .box ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+#our .textbox p {
+  width: 730px;
+  color: #6c757d;
+  line-height: 1.4;
+  font-size: 18px;
+}
+@media screen and (max-width: 576) {
+  #our .textbox h1 {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
