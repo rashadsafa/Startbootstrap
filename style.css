@@ -348,11 +348,11 @@ header .menu nav a:hover {
   #about .yellow {
     justify-content: flex-start;
   }
-  #about .yellow .story {
+  #about .story {
     width: 140px;
     height: 140px;
   }
-  #about .yellow .story .minibox {
+  #about .story .minibox {
     padding: 0 30px;
   }
 }
