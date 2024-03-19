@@ -26,4 +26,87 @@
                 color: #828080
                 line-height: 1.4
         .imgbox
+            border: 5px solid #828080
             border-radius: 50%
+    .right
+        justify-content: end
+        margin: 0 100px 100px 0
+        .textbox
+            text-align: start
+    .yellow
+        display: flex
+        justify-content: center
+    .story
+        background-color: #ffbb00
+        width: 200px
+        height: 200px
+        border: 5px solid #dfe0e1
+        border-radius: 50%
+        color: #ffffff
+        margin: auto
+        .minibox
+            text-align: center
+            padding: 0 40px
+            h2
+                font-size: 20px
+                font-weight: 700
+                line-height: 1.2
+    @media screen and ( max-width: 992px )
+        .box
+            margin: 0 0 100px 0
+            align-items: flex-start
+            .textbox
+                width: 190px
+
+    @media screen and ( max-width: 768px )
+        .text-center
+            h1
+                font-size: 55px
+            h3
+                font-size: 18px
+        .box
+            align-items: flex-start
+            flex-direction: row-reverse
+            margin: 0 0 70px 0
+            .textbox
+                width: 400px
+                text-align: start
+            .imgbox
+                width: 140px
+                height: auto
+                margin: 0
+        .right
+            margin: 0 0 70px 0
+            flex-direction: row
+            .textbox
+                text-align: start
+        .yellow
+            justify-content: flex-start
+            .story
+                width: 140px
+                height: 140px
+                .minibox
+                    padding: 0 30px
+    @media screen and ( max-width: 576px )
+        .text-center
+            h1
+                font-size: 50px
+            h3
+                font-size: 18px
+        .box
+            .imgbox
+                width: 140px
+                height: auto
+            .textbox
+                h2,h4
+                    font-size: 25px
+                p
+                    font-size: 18px
+        .yellow
+            .story
+                width: 100px
+                height: 100px
+                .minibox
+                    padding: 0 15px
+                    h2
+                        font-size: 18px

@@ -276,5 +276,111 @@ header .menu nav a:hover {
   line-height: 1.4;
 }
 #about .box .imgbox {
+  border: 5px solid #828080;
   border-radius: 50%;
+}
+#about .right {
+  justify-content: end;
+  margin: 0 100px 100px 0;
+}
+#about .right .textbox {
+  text-align: start;
+}
+#about .yellow {
+  display: flex;
+  justify-content: center;
+}
+#about .story {
+  background-color: #ffbb00;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #dfe0e1;
+  border-radius: 50%;
+  color: #ffffff;
+  margin: auto;
+}
+#about .story .minibox {
+  text-align: center;
+  padding: 0 40px;
+}
+#about .story .minibox h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media screen and (max-width: 992px) {
+  #about .box {
+    margin: 0 0 100px 0;
+    align-items: flex-start;
+  }
+  #about .box .textbox {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .text-center h1 {
+    font-size: 55px;
+  }
+  #about .text-center h3 {
+    font-size: 18px;
+  }
+  #about .box {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin: 0 0 70px 0;
+  }
+  #about .box .textbox {
+    width: 400px;
+    text-align: start;
+  }
+  #about .box .imgbox {
+    width: 140px;
+    height: auto;
+    margin: 0;
+  }
+  #about .right {
+    margin: 0 0 70px 0;
+    flex-direction: row;
+  }
+  #about .right .textbox {
+    text-align: start;
+  }
+  #about .yellow {
+    justify-content: flex-start;
+  }
+  #about .yellow .story {
+    width: 140px;
+    height: 140px;
+  }
+  #about .yellow .story .minibox {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #about .text-center h1 {
+    font-size: 50px;
+  }
+  #about .text-center h3 {
+    font-size: 18px;
+  }
+  #about .box .imgbox {
+    width: 140px;
+    height: auto;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 25px;
+  }
+  #about .box .textbox p {
+    font-size: 18px;
+  }
+  #about .yellow .story {
+    width: 100px;
+    height: 100px;
+  }
+  #about .yellow .story .minibox {
+    padding: 0 15px;
+  }
+  #about .yellow .story .minibox h2 {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
