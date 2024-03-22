@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 header .menu {
@@ -513,4 +513,20 @@ header .menu nav a:hover {
   #contact .box h3 {
     font-size: 18px;
   }
+}
+
+#sponsors .box {
+  padding: 0 50px;
+}
+#sponsors .box .imgbox {
+  width: 120px;
+}
+#sponsors .box .microsoft {
+  width: 200px;
+}
+#sponsors .box .ibm {
+  width: 100px;
+}
+#sponsors .box .facebook {
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
