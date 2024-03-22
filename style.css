@@ -529,4 +529,9 @@ header .menu nav a:hover {
 }
 #sponsors .box .facebook {
   width: 150px;
+}
+@media screen and (max-width: 576px) {
+  #sponsors .box .imgbox {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
