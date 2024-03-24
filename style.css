@@ -71,25 +71,24 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  header .menu nav {
-    display: none;
-  }
-  header .menu .btn {
-    display: flex;
-    margin-right: 30px;
-  }
-  header .menu .imgbox {
+  header .imgbox {
     margin-left: 20px;
   }
 }
 @media screen and (max-width: 992px) {
   header .menu nav {
+    display: none;
     margin-right: 55px;
   }
-  header .menu nav a {
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+    padding: 10px;
+  }
+  header .menu .btn a {
     margin: 0 10px;
   }
-  header .menu nav a .imgbox {
+  header .menu .btn a .imgbox {
     margin-left: 40px;
   }
 }
@@ -139,6 +138,7 @@ header .menu nav a:hover {
 #services .textbox h1 {
   font-weight: 700;
   font-size: 40px;
+  padding: 5px 0;
 }
 #services .textbox h3 {
   margin-top: 20px;
