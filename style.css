@@ -436,10 +436,10 @@ header .menu nav a:hover {
   border-radius: 50%;
 }
 #our .textbox p {
-  font-size: 20px;
+  font-size: 28px;
   color: #6c757d;
   line-height: 1.4;
-  padding: 10px 0;
+  padding: 40px;
 }
 @media screen and (max-width: 576) {
   #our .textbox h1 {
