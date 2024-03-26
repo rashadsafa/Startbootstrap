@@ -83,7 +83,7 @@ header .menu nav a:hover {
   header .menu .btn {
     display: flex;
     margin-right: 30px;
-    padding: 10px;
+    padding: 0 10px;
   }
   header .menu .btn a {
     margin: 0 10px;
