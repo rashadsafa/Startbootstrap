@@ -310,14 +310,14 @@ header .menu nav a:hover {
   padding: 0 40px;
 }
 #about .story .minibox h2 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
 }
 @media screen and (max-width: 992px) {
   #about .box {
     margin: 0 0 100px 0;
-    align-items: center;
+    align-items: flex-start;
   }
   #about .box .textbox {
     width: 190px;
@@ -333,7 +333,7 @@ header .menu nav a:hover {
   #about .box {
     align-items: flex-start;
     flex-direction: row-reverse;
-    margin: 0 0 70px 110px;
+    margin: 0 0 70px 0;
   }
   #about .box .textbox {
     width: 400px;
