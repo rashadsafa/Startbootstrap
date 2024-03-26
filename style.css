@@ -97,38 +97,44 @@ header .menu nav a:hover {
   background-image: url(assets/header-bg.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+}
+#welcome .box {
+  height: 700px;
   display: flex;
   align-items: center;
-}
-#welcome .textbox {
-  padding: 40px 0;
+  justify-content: center;
 }
 #welcome .textbox h1 {
   color: #ffffff;
-  font-size: 34px;
-  margin: 20px 0;
-  padding: 50px 0 0;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 #welcome .textbox h2 {
   color: #ffffff;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 90px;
+  margin: 0 0 50px 0;
 }
 #welcome .textbox .btn {
   background-color: #ffc800;
-  padding: 22px 60px;
+  padding: 18px 40px;
   color: #ffffff;
-  margin: 50px 0 0;
   border-radius: 12px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 700px;
 }
-@media screen and (min-width: 768px) {
-  #welcome .textbox h1 {
-    font-size: 40px;
+#welcome .textbox .btn h4 {
+  cursor: pointer;
+}
+#welcome .textbox .btn h4:hover {
+  background-color: #c28d07;
+}
+@media screen and (max-width: 576px) {
+  #welcome .textbox .box .textbox h1 {
+    font-size: 35px;
   }
-  #welcome .textbox h2 {
-    font-size: 100px;
+  #welcome .textbox .box .textbox h2 {
+    font-size: 70px;
   }
 }
 
