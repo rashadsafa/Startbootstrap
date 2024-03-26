@@ -419,6 +419,7 @@ header .menu nav a:hover {
 #our .box .textbox h2 {
   font-size: 30px;
   font-weight: 700px;
+  margin-bottom: 10px;
 }
 #our .box .textbox h4 {
   font-size: 18px;
@@ -438,7 +439,8 @@ header .menu nav a:hover {
   cursor: pointer;
   background-color: #212529;
   color: #ffffff;
-  padding: 10px 12px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 #our .textbox p {
