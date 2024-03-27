@@ -303,7 +303,6 @@ header .menu nav a:hover {
   border: 5px solid #dfe0e1;
   border-radius: 50%;
   color: #ffffff;
-  margin: auto;
 }
 #about .story .minibox {
   text-align: center;
@@ -354,15 +353,12 @@ header .menu nav a:hover {
   #about .yellow {
     justify-content: flex-start;
   }
-  #about .story {
+  #about .yellow .story {
     width: 140px;
     height: 140px;
   }
-  #about .story .minibox {
+  #about .yellow .story .minibox {
     padding: 0 30px;
-  }
-  #about .story .minibox h2 {
-    font-size: 20px;
   }
 }
 @media screen and (max-width: 576px) {
