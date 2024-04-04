@@ -548,6 +548,9 @@ footer .menu a {
   color: #535151;
   font-size: 18px;
 }
+footer .menu span {
+  margin: 0 20px;
+}
 footer .menu ul {
   display: flex;
   justify-content: center;
