@@ -540,6 +540,11 @@ header .menu nav a:hover {
     margin-top: 50px;
   }
 }
+@media screen and (max-width: 768px) {
+  #sponsors .box .imgbox {
+    margin-top: 30px;
+  }
+}
 
 footer {
   padding: 22px 0;
